@@ -12,11 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <!-- Intent filter to capture System Browser calling back to our app after Sign In -->
@@ -33,7 +29,13 @@
                     android:scheme="msal074d69f8-eed5-46ed-b577-13a834d0a716" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
