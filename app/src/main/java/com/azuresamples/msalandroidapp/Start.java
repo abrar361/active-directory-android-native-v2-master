@@ -8,15 +8,15 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Start extends AppCompatActivity {
 
-    private static FirebaseDatabase mDatabase;
-    public static FirebaseDatabase getDatabase(){
-        if(mDatabase==null){
-            mDatabase = FirebaseDatabase.getInstance();
-            mDatabase.setPersistenceEnabled(true);
-            mDatabase.getReference().keepSynced(true);
-        }
-        return mDatabase;
-    }
+//    private static FirebaseDatabase mDatabase;
+//    public static FirebaseDatabase getDatabase(){
+//        if(mDatabase==null){
+//            mDatabase = FirebaseDatabase.getInstance();
+//            mDatabase.setPersistenceEnabled(true);
+//            mDatabase.getReference().keepSynced(true);
+//        }
+//        return mDatabase;
+//    }
 
 //    private static FirebaseStorage mStorage;
 //    public static FirebaseStorage getStorage(){
@@ -36,5 +36,6 @@ public class Start extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         startActivity(new Intent(Start.this,MainActivity.class));
+        finish();
     }
 }
