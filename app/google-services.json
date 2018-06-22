@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "420443298914",
+    "firebase_url": "https://stylo-fe193.firebaseio.com",
+    "project_id": "stylo-fe193",
+    "storage_bucket": "stylo-fe193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420443298914:android:7acf76e0bb3577ab",
+        "android_client_info": {
+          "package_name": "com.azuresamples.msalandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420443298914-h621disjrnhr9nuf8dolm4uth3eq6sq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azuresamples.msalandroidapp",
+            "certificate_hash": "60f323a40f240b30b54b943ba67ff0f288a79064"
+          }
+        },
+        {
+          "client_id": "420443298914-ivlpomcm1gpo5gbnkgsibmv3vbhr1ocv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "420443298914-ivlpomcm1gpo5gbnkgsibmv3vbhr1ocv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuA8ob5asN8RxAVxL23yXTNFwxEcq0jE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420443298914-ivlpomcm1gpo5gbnkgsibmv3vbhr1ocv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
